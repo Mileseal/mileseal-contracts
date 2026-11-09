@@ -1,11 +1,11 @@
 # mileseal-contracts
 
 A milestone escrow smart contract for Stellar Soroban. Part of
-[Mileseal](https://github.com/Johnero542), built for the
+[Mileseal](https://github.com/Mileseal), built for the
 [Drips Stellar Wave Program](https://drips.network/wave).
 
-**Status: contract implemented and unit-tested locally. Not yet audited. Not yet deployed
-to any network.** See [Known limits](#known-limits) and [Testnet deployment](#testnet-deployment)
+**Status: contract implemented, unit-tested locally, and deployed to Stellar testnet. Not
+yet audited.** See [Known limits](#known-limits) and [Testnet deployment](#testnet-deployment)
 below.
 
 ## What it is
@@ -86,11 +86,12 @@ The optimized wasm is written to `target/wasm32v1-none/release/mileseal_escrow.w
 
 ## Testnet deployment
 
-Not yet deployed. Once a maintainer has a funded testnet identity, the contract is
-deployed with the real `stellar contract deploy` command for the installed CLI version
-(see `stellar contract deploy --help`), and the resulting id recorded here:
+Deployed to the Stellar testnet. Wasm hash `708328eb424f11b35c544e1986a89e83893345dc3a65b400ecda9a982681bc19`, matching the
+build produced by `stellar contract build` from this repo's current source.
 
-**Testnet Contract ID:** _(not yet deployed)_
+**Testnet Contract ID:** `CBF2KWE6JZY3EOLUF2FTUDVJVBFRICIKDQD54VDEKV327Z7KHKFZVUEY`
+
+[View on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CBF2KWE6JZY3EOLUF2FTUDVJVBFRICIKDQD54VDEKV327Z7KHKFZVUEY)
 
 ## Known limits
 

@@ -1,6 +1,6 @@
 # Contributing to mileseal-contracts
 
-This repo is part of [Mileseal](https://github.com/Johnero542), a milestone escrow on
+This repo is part of [Mileseal](https://github.com/Mileseal), a milestone escrow on
 Stellar Soroban, built for the [Drips Stellar Wave Program](https://drips.network/wave).
 
 ## Before you start
