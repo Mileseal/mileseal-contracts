@@ -341,3 +341,6 @@ fn get_milestone(env: &Env, escrow: &Escrow, index: u32) -> Milestone {
         .get(index)
         .unwrap_or_else(|| panic_with_error!(env, Error::BadIndex))
 }
+
+#[cfg(test)]
+mod test;
