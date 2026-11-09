@@ -32,6 +32,9 @@ jobs:
       - name: cargo test
         run: cargo test
 
+      - name: Install build deps for the stellar CLI
+        run: sudo apt-get update && sudo apt-get install -y libdbus-1-dev pkg-config
+
       - name: Install stellar CLI
         run: cargo install --locked stellar-cli --version 30.0.1
 
